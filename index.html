@@ -7,10 +7,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
+    <main>
+        <section class="py-5">
+            <div class="container">
+                <div class="row ">
+                    <div class="col w-50">
+                        <img class="img-fluid w-75" src="images/mac.png" alt="">
+                    </div>
+                    <div class="col w-50 display-flex">
+                        <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                        <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine. Magic Keyboard with Touch ID and Magic Keyboard with Touch ID and Numeric Keypad are available</p>
+                        <div class="memory display-flex">
+                            <button id="8gbMemory" class="btn btn-primary m-1">8GB unified memory</button>
+                            <button id="16gbMemory" class="btn btn-primary m-1">16GB unified memory</button>
+                        </div>
+                        <div class="storage my-3 display-flex">
+                            <button id="256gbStorage" class="btn btn-primary m-1">256GB SSD storage</button>
+                            <button id="512gbStorage" class="btn btn-primary m-1">512GB SSD storage</button>
+                            <button id="1tbStorage" class="btn btn-primary m-1">1TB SSD storage</button>
+                        </div>
+                        <div class="delivary my-3 display-flex">
+                            <button class="btn btn-primary m-1" id="freeDelivery">Friday-,Aug 25-</button>
+                            <button class="btn btn-primary m-1" id="expressDelivery">Friday-,Aug 25-</button>
+                        </div>
+                        <div class="price">
 
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th>Best Price</th>
+                                        <th>$<span id="bestPrice">1299</span></th>
+
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <th scope="col"> Extra memory Cost</th>
+                                        <th scope="col">$<span id="extraMemory">0</span></th>
+
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Extra Storage Cost</th>
+                                        <th>$<span id="extraStorage">0</span></th>
+
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <th class="bordo" scope="row">Delivery Charge</th>
+                                        <th class="bordo">$<span id="delivaryCharge">0</span></th>
+
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <th class="bor" scope="col">Total Price</th>
+                                        <th class="bor" scope="col">$<span id="totalPrice">1299</span></th>
+
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                            <div class="promocode">
+                                <div class="inputaria">
+                                    <small>Add Promo Code</small>
+                                    <br>
+                                    <div class="input-group mb-3">
+                                        <input id="promoInput" type="text" class="form-control mt-3" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                        <button class="btn btn-outline-secondary mt-3" type="button" id="PromoApply">Button</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
 
 

@@ -1,0 +1,26 @@
+.btn {
+    background-color: transparent !important;
+    color: #000 !important;
+    transition: all .4s !important;
+}
+
+.btn:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+th {
+    border-bottom: 1px solid #CCC !important;
+}
+
+.bor {
+    border-bottom: none !important;
+}
+
+.bor {
+    border-bottom: none !important;
+}
+
+.bordo {
+    border-bottom: 1px solid #000 !important;
+}
