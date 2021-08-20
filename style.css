@@ -1,3 +1,5 @@
+/* // button style  */
+
 .btn {
     background-color: transparent !important;
     color: #000 !important;
@@ -8,6 +10,9 @@
     background-color: #000 !important;
     color: #fff !important;
 }
+
+
+/* table style  */
 
 th {
     border-bottom: 1px solid #CCC !important;
@@ -23,4 +28,15 @@ th {
 
 .bordo {
     border-bottom: 1px solid #000 !important;
+}
+
+
+/* footer style  */
+
+footer {
+    background-color: #000;
+}
+
+.pormo {
+    font-size: 30px !important;
 }
