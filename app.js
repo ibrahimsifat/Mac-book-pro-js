@@ -1,4 +1,4 @@
-   // all selection
+   // all selection 
    // memory 
    let memory8 = document.getElementById('8gbMemory')
    let memory16 = document.getElementById('16gbMemory')
@@ -38,8 +38,6 @@
    function getLastTotal() {
        totalWithPromo.innerText = totalPrice.innerText
    }
-
-
    // adding Extra memory price
    memory8.addEventListener('click', function() {
        extraMemory.innerText = 0
@@ -87,14 +85,13 @@
        getLastTotal()
    })
    expressDelivery.addEventListener('click', function() {
-       delivaryCharge.innerText = 20
-           //calling total
-       totalAmount()
-           //calling totalWtihPromoCode
-       getLastTotal()
-   })
-
-   // promo code input and button 
+           delivaryCharge.innerText = 20
+               //calling total
+           totalAmount()
+               //calling totalWtihPromoCode
+           getLastTotal()
+       })
+       // promo code input and button 
    PromoApply.addEventListener('click', function() {
 
        // input value 
