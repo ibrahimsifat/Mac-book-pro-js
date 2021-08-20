@@ -96,14 +96,16 @@
 
    // promo code input and button 
    PromoApply.addEventListener('click', function() {
+
        // input value 
        let promoInputValue = promoInput.value
            //totalWithPromo
        let promoTotalInnerText = totalWithPromo.innerText
 
        if (promoInputValue == 'stevekaku') {
-           totalWithPromo.innerText = promoTotalInnerText - (promoTotalInnerText * 20) / 100
-           totalWithPromo.classList.add('pormo')
+           let discount = promoTotalInnerText - (promoTotalInnerText * 20) / 100
+           totalWithPromo.innerText = discount
+
        } else if (promoInputValue == '') {
            alert('Enter your Pormo code')
 
@@ -111,5 +113,6 @@
            alert('Wrong Promo code')
        }
        // clear promo code input
-       promoInput.value == ''
-   })
+       document.getElementById('promoInput').value == ''
+
+   }, { once: true })
