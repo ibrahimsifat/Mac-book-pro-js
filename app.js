@@ -102,6 +102,8 @@
        if (promoInputValue == 'stevekaku') {
            let discount = promoTotalInnerText - (promoTotalInnerText * 20) / 100
            totalWithPromo.innerText = discount
+           document.getElementById('promoInput').value = ''
+
 
        } else if (promoInputValue == '') {
            alert('Enter your Pormo code')
@@ -109,7 +111,6 @@
        } else if (promoInputValue != 'stevekaku') {
            alert('Wrong Promo code')
        }
-       // clear promo code input
-       document.getElementById('promoInput').value == ''
 
-   }, { once: true })
+
+   })
